@@ -12,36 +12,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    class Config {
-        public int topLineY = 100;
-
-        public int bubbleSize = 175;
-        public int bubbleContentSize = 80;
-        public int bubbleY = 10;
-        public int bubbleY1 = 165;
-
-        public int itemsMarginH = 0;
-        public int itemsMarginTop = 25;
-        public int itemsHeight = 80;
-
-        public float itemHideDistance0 = 1.0f;
-        public float itemHideDistance1 = 0.75f;
-        public int itemsAnimationDuration = 333;
-
-        public int itemsDY = 30;
-
-        public float curveWidth0 = 340.0f;
-        public float curveWidth1 = 180.0f;
-        public float curveDepth0 = 120.0f;
-        public float curveDepth1 = 75.0f;
-        public float curveControlA0 = 80.0f;
-        public float curveControlA1 = 40.0f;
-        public float curveControlB0 = 115.0f;
-        public float curveControlB1 = 50.0f;
-
-        public int baseAnimationDuration = 333;
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
